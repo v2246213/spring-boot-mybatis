@@ -10,6 +10,7 @@ import org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfigurat
  */
 
 @SpringBootApplication(exclude={DataSourceAutoConfiguration.class,HibernateJpaAutoConfiguration.class})
+//暂时不让他读取DataSource
 public class application {
 
     public static void main(String[] args) {
